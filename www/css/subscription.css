@@ -1,0 +1,231 @@
+body{
+	background: #f7f9fc;
+	font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#wrapper 
+{
+	-webkit-box-shadow: 0px 16px 46px -22px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 16px 46px -22px rgba(0,0,0,0.75);
+	box-shadow: 0px 16px 46px -22px rgba(0,0,0,0.75);
+	background: #ffffff;
+	width: 350px;
+	padding: 0 0 10px 0;
+	margin: 0 0 0 -150px;
+	position: absolute;
+	left: 50%;
+	top: 10%;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	
+	-webkit-transition: box-shadow 0.1s linear;
+	-moz-transition: box-shadow 0.1s linear;
+	-ms-transition: box-shadow 0.1s linear;
+	-o-transition: box-shadow 0.1s linear;
+	transition: box-shadow 0.1s linear;
+}
+#wrapper:hover{
+	-webkit-box-shadow: 0px 16px 46px -22px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 16px 46px -22px rgba(0,0,0,0.75);
+	box-shadow: 0px 16px 46px -15px rgba(0,0,0,0.75);
+	
+	-webkit-transition: box-shadow 0.1s linear;
+	-moz-transition: box-shadow 0.1s linear;
+	-ms-transition: box-shadow 0.1s linear;
+	-o-transition: box-shadow 0.1s linear;
+	transition: box-shadow 0.1s linear;
+}
+form, p{
+	float: left;
+	text-align: center;
+	font-size: 12px;
+	line-height: 18px;
+}
+form{
+	width: 355px;
+	margin: 0 auto;
+	position: relative;
+	left: 7px;
+}
+form div{
+	float: left;
+	margin-bottom: 10px;
+}
+label{
+	width: 65px;
+	padding: 4px 10px 0 0;
+	float: left;
+	text-align: right;
+}
+form div input{
+	width: 220px;
+	height: 25px;
+	float: right;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #e2e2e2;
+	font-size: 12px;
+	padding: 0 5px;
+	
+	-webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+  -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+  -ms-transition: border linear 0.2s, box-shadow linear 0.2s;
+  -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+  transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+form div input:focus{
+	border-color: #aec6d6;
+  outline: 0;
+  outline: thin dotted \9;
+  /* IE6-9 */
+
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(11,193,244,.6);
+  -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(11,193,244,.6);
+  box-shadow: 0px 0px 0px 3px rgba(202,229,247,1);
+  
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  
+  -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+  -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+  -ms-transition: border linear 0.2s, box-shadow linear 0.2s;
+  -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+  transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+.uneditable{
+	-webkit-appearance: none; 
+	-moz-appearance: none; 
+	border: 1px solid #e2e2e2; 
+	height: 25px; 
+	background: #f7f7f7; 
+	padding: 0 5px;
+}
+form div input:focus{
+	outline: none;
+}
+#wrapper img{
+	width: 16px;
+	margin-right: 5px;
+}
+#brand h1{
+	font-size: 14px;
+	font-weight: normal;
+}
+h2{
+	font-weight: normal;
+	text-align: center;
+	padding: 0 10px;
+	font-family: 'Questrial', sans-serif;
+}
+a{
+	color: #000;
+}
+a:hover{
+	text-decoration: none;
+}
+#submit{
+	clear: both;
+	float: left;
+	width: 250px;
+	text-align: center;
+	margin: 10px 0 0 32px;
+	
+	background: white;
+	padding: 10px 10px;
+	border: 1px solid #e2e2e2;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	box-shadow: none;
+	cursor: pointer;
+	text-decoration: none;
+	
+	-webkit-box-shadow: 0px 2px 11px -8px rgba(0,0,0,1);
+	-moz-box-shadow: 0px 2px 11px -8px rgba(0,0,0,1);
+	box-shadow: 0px 2px 11px -8px rgba(0,0,0,1);
+	
+	-webkit-transition: box-shadow 0.1s linear;
+	-moz-transition: box-shadow 0.1s linear;
+	-ms-transition: box-shadow 0.1s linear;
+	-o-transition: box-shadow 0.1s linear;
+	transition: box-shadow 0.1s linear;
+}
+#submit:hover {
+  color: #333333;
+	text-decoration: none;
+	background-color: #ffffff;
+	*background-color: #ffffff;
+	/* Buttons in IE7 don't get borders, so darken on hover */
+	
+	background-position: 0 -15px;
+	-webkit-transition: background-position 0.1s linear;
+	-moz-transition: background-position 0.1s linear;
+	-ms-transition: background-position 0.1s linear;
+	-o-transition: background-position 0.1s linear;
+	transition: background-position 0.1s linear;
+	
+	-webkit-box-shadow: 0px 6px 11px -5px rgba(0,0,0,1);
+	-moz-box-shadow: 0px 6px 11px -5px rgba(0,0,0,1);
+	box-shadow: 0px 6px 11px -5px rgba(0,0,0,.5);
+	
+	-webkit-transition: box-shadow 0.1s linear;
+	-moz-transition: box-shadow 0.1s linear;
+	-ms-transition: box-shadow 0.1s linear;
+	-o-transition: box-shadow 0.1s linear;
+	transition: box-shadow 0.1s linear;
+}
+#submit:active {
+  background-color: #d5eaf8;
+  background-color: #d5eaf8 \9;
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 2px 4px rgba(0,0,0,.15), 0 1px 2px rgba(0,0,0,.05);
+  -moz-box-shadow: inset 0 2px 4px rgba(0,0,0,.15), 0 1px 2px rgba(0,0,0,.05);
+  box-shadow: inset 0 2px 4px rgba(0,0,0,.15), 0 1px 2px rgba(0,0,0,.05);
+}
+.separator{
+	clear: both;
+	height: 5px;
+	background: url("../img/top-pattern2.gif") repeat-x 0 0;
+	background-size: 46px;
+	margin: -8px -8px 0 -8px;
+}
+#hp{
+	display:none;
+}
+#gdpr{
+	float: left;
+	color:#323232;
+	width: 280px;
+	padding: 10px 10px 10px 35px;
+	text-align: left !important;
+}
+#gdpr input{
+	margin: 0px 0 0 -22px;
+	width: 20px;
+	height: 20px;
+	float: left;
+}
+/*
+#error-msg{
+	display: none;
+	width: 270px;
+	margin-left: 17px;
+	padding: 10px 15px;
+	background-color: #f2dede;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	color: #333333;
+}
+*/
+
+/* Responsive */
+
+@media screen and (max-width: 450px) {
+	form div input{
+		width: 160px;
+	}
+}
