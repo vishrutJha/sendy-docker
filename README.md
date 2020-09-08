@@ -1,4 +1,4 @@
-#  LAMP stack with Sendy built with Docker Compose
+#  Sendy built with Docker Compose on LAMP Stack
 
 Basic Setup Code Fudged from [This Awesome Source](https://github.com/sprintcube/docker-compose-lamp)
 
@@ -94,7 +94,9 @@ _**MYSQL_LOG_DIR**_
 
 This will be used to store Apache logs. The default value for this is `./logs/mysql`.
 
-## Sendy
+---
+#### Sendy
+---
 
 Use the sendy documentation to setup the rest of the things
 
